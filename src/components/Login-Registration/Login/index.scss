@@ -1,0 +1,49 @@
+@import "~scss/mixin";
+@import "~scss/variables";
+
+.wrapper-login {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(135deg, #C4EBE6 50% , #FFC2C2 50%);
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    width: 35%;
+    height: 25%;
+    background: url('~assets/car2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+  }
+}
+
+.login-regist__form.login {
+  @include form-formated;
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  transform: translate(-15%, -30%);
+
+  a {
+    color: darken($secondary-color, 10%);
+    text-decoration: none;
+    font-size: .7em;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    outline: none;
+
+    &:hover {
+      color: $primary-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.login-regist__btn {
+  @include login-regist-btn;
+}

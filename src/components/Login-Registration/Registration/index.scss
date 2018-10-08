@@ -1,0 +1,10 @@
+@import "~scss/mixin";
+@import "~scss/variables";
+
+form {
+  @include form-formated;
+}
+
+.login-regist__btn {
+  @include login-regist-btn;
+}
