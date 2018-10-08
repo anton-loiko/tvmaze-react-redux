@@ -5,7 +5,7 @@ import React from 'react';
 // import Home from './components/Home';
 import Login from './components/Login-Registration/Login';
 // import PageNotFound from './components/PageNotFound';
-// import Registration from './components/Login-Registration/Registration';
+import Registration from './components/Login-Registration/Registration';
 // import UserProfile from './components/UserProfile';
 //
 

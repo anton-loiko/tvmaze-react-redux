@@ -2,24 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41d10895-cf92-4dec-aa5f-426efa1f70a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Login-Registration/Login/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node_modules/scss/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/actions/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Details/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login-Registration/Login/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageNotFound/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageNotFound/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Registration/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserProfile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserProfile/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/scss/mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login-Registration/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login-Registration/Input/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login-Registration/Input/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login-Registration/Input/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login-Registration/Login/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login-Registration/Login/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/assets/abstract-art-background-1037995.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/assets/abstract-art-background-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/assets/car1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scss/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/scss/mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node_modules/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/node_modules/scss/variables.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +40,8 @@
         <counts>
           <entry key="css" value="16" />
           <entry key="html" value="97" />
-          <entry key="js" value="4932" />
-          <entry key="scss" value="2379" />
+          <entry key="js" value="5103" />
+          <entry key="scss" value="3927" />
           <entry key="svg" value="5" />
         </counts>
       </usages-collector>
@@ -55,8 +49,8 @@
         <counts>
           <entry key="CSS" value="16" />
           <entry key="HTML" value="97" />
-          <entry key="JavaScript" value="4932" />
-          <entry key="SCSS" value="2379" />
+          <entry key="JavaScript" value="5103" />
+          <entry key="SCSS" value="3927" />
           <entry key="SVG" value="5" />
         </counts>
       </usages-collector>
@@ -72,7 +66,7 @@
           <entry key="js" value="59" />
           <entry key="json" value="5" />
           <entry key="sass" value="1" />
-          <entry key="scss" value="33" />
+          <entry key="scss" value="35" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
@@ -82,7 +76,7 @@
           <entry key="HTML" value="2" />
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="59" />
-          <entry key="SCSS" value="33" />
+          <entry key="SCSS" value="35" />
           <entry key="SVG" value="1" />
           <entry key="Sass" value="1" />
         </counts>
@@ -91,23 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Login/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="391">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -115,20 +97,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            <state relative-caret-position="77">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="48" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#902#971#0" />
+                <element signature="e#982#1104#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Login/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -136,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/node_modules/scss/mixin.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="91">
+              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -145,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="367">
+              <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -154,8 +129,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Input/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="276">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Input/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="322">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -172,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/node_modules/scss/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="184">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -193,6 +171,9 @@
       <find>onAddTrack</find>
       <find>finde</find>
       <find>onGetTracks</find>
+      <find>dar</find>
+      <find>dark</find>
+      <find>OVER</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -238,15 +219,15 @@
         <option value="$PROJECT_DIR$/src/components/Login-Registration/Form/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Login-Registration/Form/index.js" />
         <option value="$PROJECT_DIR$/src/node_modules/assets/right-arrow.svg" />
-        <option value="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/Login-Registration/Input/index.js" />
-        <option value="$PROJECT_DIR$/src/node_modules/scss/variables.scss" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Login-Registration/Input/index.scss" />
-        <option value="$PROJECT_DIR$/src/node_modules/scss/mixin.scss" />
         <option value="$PROJECT_DIR$/src/components/Login-Registration/Login/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Login-Registration/Input/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js" />
+        <option value="$PROJECT_DIR$/src/node_modules/scss/variables.scss" />
+        <option value="$PROJECT_DIR$/src/components/Login-Registration/Input/index.scss" />
         <option value="$PROJECT_DIR$/src/components/Login-Registration/Login/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss" />
+        <option value="$PROJECT_DIR$/src/node_modules/scss/mixin.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -321,14 +302,28 @@
               <item name="react-redux-sass-tvmaze" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-redux-sass-tvmaze" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-redux-sass-tvmaze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-redux-sass-tvmaze" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Login-Registration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-redux-sass-tvmaze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-redux-sass-tvmaze" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Login-Registration" type="462c0819:PsiDirectoryNode" />
+              <item name="Login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-redux-sass-tvmaze" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-redux-sass-tvmaze" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-redux-sass-tvmaze" type="b2602c69:ProjectViewProjectNode" />
@@ -400,12 +395,12 @@
       <workItem from="1538778181535" duration="7232000" />
       <workItem from="1538853656010" duration="8523000" />
       <workItem from="1538897115442" duration="12042000" />
-      <workItem from="1538934667917" duration="21619000" />
+      <workItem from="1538934667917" duration="30397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49416000" />
+    <option name="totallyTimeSpent" value="58194000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="718" height="741" extended-state="4" />
@@ -413,7 +408,7 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.28489208" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.28489208" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -423,7 +418,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3294702" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -573,62 +568,34 @@
     <entry file="file://$PROJECT_DIR$/src/node_modules/assets/right-arrow.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/scss/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Input/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Input/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/node_modules/scss/mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Login/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js">
+    <entry file="file://$PROJECT_DIR$/src/node_modules/scss/variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        <state relative-caret-position="184">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Input/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Input/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -637,8 +604,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Login/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="173">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Registration/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="90" selection-start-line="90" selection-end-line="93" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Login-Registration/Registration/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#902#971#0" />
+            <element signature="e#982#1104#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node_modules/scss/mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>

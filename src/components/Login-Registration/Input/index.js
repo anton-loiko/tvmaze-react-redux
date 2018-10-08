@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss'
 
-export default ({ type, name, placeholder, value, required }) => {
+export default ({ type, name, placeholder, value, required, checked }) => {
   return (
     <input
       className='login-regist__input'
@@ -10,6 +10,7 @@ export default ({ type, name, placeholder, value, required }) => {
       placeholder={ placeholder }
       required={required}
       value={value}
+      checked={checked}
     />
   );
 };

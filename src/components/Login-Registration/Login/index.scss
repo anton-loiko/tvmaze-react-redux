@@ -2,21 +2,8 @@
 @import "~scss/variables";
 
 .wrapper-login {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: linear-gradient(135deg, #C4EBE6 50% , #FFC2C2 50%);
+  @include wrapper-form;
   &::before {
-    content: '';
-    position: absolute;
-    bottom: 10%;
-    right: 15%;
-    width: 35%;
-    height: 25%;
-    background: url('~assets/car2.png');
-    background-size: contain;
-    background-repeat: no-repeat;
     transform: scaleX(-1);
   }
 }
@@ -29,7 +16,7 @@
   transform: translate(-15%, -30%);
 
   a {
-    color: darken($secondary-color, 10%);
+    color: $secondary-color-dark-30;
     text-decoration: none;
     font-size: .7em;
     padding-left: 10px;
