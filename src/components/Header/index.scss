@@ -1,0 +1,51 @@
+@import "~scss/variables";
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  width: 100vw;
+  height: 45px;
+  background-color: $white-color;
+  box-shadow: 0 5px 5px rgba(190,190,190, .5);
+
+  &__link {
+    color: $secondary-color-dark-30;
+    text-decoration: none;
+    margin-left: 15px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  &__link-details {
+    display: none;
+  }
+
+  &__link--active {
+    position: relative;
+    color: $primary-color;
+    pointer-events: none;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: -5%;
+      width: 110%;
+      height: 1px;
+      background-color: $primary-color;
+    }
+    &-details {
+      display: inline-flex;
+    }
+  }
+
+}

@@ -1,4 +1,4 @@
-@import '~scss/variables';
+@import '../../node_modules/scss/variables';
 
 .login-regist__input {
   position: relative;
@@ -7,6 +7,7 @@
   margin-bottom: 10px;
   padding: 15px 10px 5px 10px;
   border: none;
+  color: $secondary-color-dark-30;
   border-bottom: 1px solid $secondary-color-dark-5;
   transition: all ease 350ms;
   outline: none;

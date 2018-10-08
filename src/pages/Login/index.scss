@@ -1,0 +1,25 @@
+@import "../../node_modules/scss/mixin";
+@import "../../node_modules/scss/variables";
+
+.wrapper-login {
+  @include wrapper-form;
+  &::before {
+    transform: scaleX(-1);
+  }
+}
+
+.login-regist__form.login {
+  @include form-formated;
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  transform: translate(-15%, -30%);
+}
+
+.login-regist__btn {
+  @include login-regist-btn;
+}
+
+.login-regist__link {
+@include login-regist__link;
+}
