@@ -81,8 +81,7 @@
   }
 
 
-  .login-regist__btn {
-    @include login-regist-btn;
+  .login-regist-btn {
     position: absolute;
     bottom: 80px;
     right: 10px;

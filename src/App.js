@@ -17,27 +17,31 @@ class App extends Component {
   login = user => {
     const localUser= JSON.parse(localStorage.getItem('user'));
 
-    if (localUser !== null && localUser.userName === user.userName
+    if (!localUser) {
+      return;
+    }
+
+    if (localUser.userName === user.userName
       && localUser.password === user.password) {
-      // localStorage.removeItem('login');
       localStorage.setItem('login', '1');
       return this.props.history.push('/');
     }
 
-    // localStorage.removeItem('login');
+    if (user.userName === localUser.userName && user.password !== localUser.password) {
+      return
+    }
+
     localStorage.setItem('login', '0');
     return this.props.history.push('/registration');
   };
 
 
   logout = () => {
-    // localStorage.removeItem('login');
     localStorage.setItem('login', '0');
     return this.props.history.push('/login');
   };
 
   register = () => {
-    // localStorage.removeItem('login');
     localStorage.setItem('login', '1');
     return this.props.history.push('/');
   };

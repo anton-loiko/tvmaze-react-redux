@@ -1,5 +1,12 @@
 @import '../../node_modules/scss/variables';
 
+// стилизация авто заполнения
+//input:-webkit-autofill {
+//  -webkit-box-shadow: inset 0 0 0 50px $success-color !important; /* Цвет фона */
+//  -webkit-text-fill-color: $secondary-color-dark-30 !important; /* цвет текста */
+//  color: $secondary-color-dark-30 !important; /* цвет текста */
+//}
+
 .login-regist__input {
   position: relative;
   width: 100%;
@@ -32,12 +39,3 @@
   color: $primary-color;
 }
 
-
-
-
-
-
-// TODO -- для валидации
-//.login-regist__input:invalid {
-//  border: 1px solid $error-color;
-//}

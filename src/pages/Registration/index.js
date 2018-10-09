@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Input from "../../components/Input/index";
+import Input from "../../components/Input";
+import Button from "../../components/Button";
 import './index.scss'
 
 export default class extends Component {
-  state = {
-    user: {}
-  };
+  // state = {
+  //   user: {}
+  // };
 
   userRegister = (obj) => {
     const strObj = JSON.stringify(obj);
@@ -128,7 +129,7 @@ export default class extends Component {
             Back to login
           </Link>
 
-          <button o className='login-regist__btn' type='submit'>Sign up</button>
+          <Button text='Sign up'/>
         </form>
       </div>
     );
