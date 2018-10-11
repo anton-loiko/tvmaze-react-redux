@@ -1,11 +1,7 @@
-// import lib
 import React, {Component} from 'react';
-// import { connect } from 'react-redux';
 import {Route, Switch, withRouter} from 'react-router-dom';
-//----------------------------------------- END -----------------------------------------
-
-// import other
-import Details from 'pages/Details';
+//----------------------------------------- END ----------------------------------------
+import DetailsContainer from 'containers/DetailsContainer';
 import Home from 'pages/Home';
 import Login from 'pages/Login';
 import Logout from 'pages/Logout';
@@ -13,7 +9,7 @@ import PageNotFound from 'pages/PageNotFound';
 import Registration from 'pages/Registration';
 import UserProfile from 'pages/UserProfile';
 import Header from 'components/Header';
-import Content from 'containers/Content';
+import RounerContainer from 'containers/RouterContainer';
 import PrivateRoutePropComponent from 'components/PrivateRoutes/PrivateRoutePropComponent';
 import PrivateRoutePropRender from 'components/PrivateRoutes/PrivateRoutePropRender';
 //----------------------------------------- END -----------------------------------------
@@ -62,7 +58,7 @@ class App extends Component {
 
   render() {
     return (
-      <Content>
+      <RounerContainer>
         <Route exact path='/' component={Header}/>
         <Route path='/details/:id?' component={Header}/>
         <Route path='/profile' component={Header}/>
@@ -83,7 +79,7 @@ class App extends Component {
           <PrivateRoutePropComponent  path='/details/:id?'
                                      login={this.getStatusLogin()}
                                      toregirect='/login'
-                                     component={Details}/>
+                                     component={DetailsContainer}/>
 
           <PrivateRoutePropRender exact path='/'
                         login={this.getStatusLogin()}
@@ -96,7 +92,7 @@ class App extends Component {
                         component={UserProfile}/>
           <Route component={PageNotFound}/>
         </Switch>
-      </Content>
+      </RounerContainer>
     );
   }
 }
