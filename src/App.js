@@ -13,7 +13,7 @@ import PageNotFound from 'pages/PageNotFound';
 import Registration from 'pages/Registration';
 import UserProfile from 'pages/UserProfile';
 import Header from 'components/Header';
-import Content from 'components/Content';
+import Content from 'containers/Content';
 import PrivateRoutePropComponent from 'components/PrivateRoutes/PrivateRoutePropComponent';
 import PrivateRoutePropRender from 'components/PrivateRoutes/PrivateRoutePropRender';
 //----------------------------------------- END -----------------------------------------
@@ -65,13 +65,11 @@ class App extends Component {
     return (
       <Content>
         <Route exact path='/' component={Header}/>
-        <Route path='/details' component={Header}/>
+        <Route path='/details/:id?' component={Header}/>
         <Route path='/profile' component={Header}/>
 
-        <Switch>
-          {/*<Route path='/registration' render={props => <Registration onRegister={this.register}/>}/>*/}
-          {/*<Route path='/login' render={props => <Login onLogin={this.login}/>}/>*/}
 
+        <Switch>
           <Route path='/logout' render={props => <Logout onLogout={this.logout}/>}/>
 
           <PrivateRoutePropRender path='/registration'
@@ -83,20 +81,16 @@ class App extends Component {
                         toregirect={!!this.getStatusLogin() ? '/' : '/login'}
                         render={props => <Login onLogin={this.login}/>}/>
 
-          {/*<PrivateRoutePropComponent exact path='/'*/}
-                        {/*login={this.getStatusLogin()}*/}
-                        {/*toregirect='/login'*/}
-                        {/*component={Home}/>*/}
+          <PrivateRoutePropComponent  path='/details/:id?'
+                                     login={this.getStatusLogin()}
+                                     toregirect='/login'
+                                     component={Details}/>
 
           <PrivateRoutePropRender exact path='/'
                         login={this.getStatusLogin()}
                         toregirect='/login'
                         render={props => <Home state={this.props.state}/>}/>
 
-          <PrivateRoutePropComponent path='/details'
-                        login={this.getStatusLogin()}
-                        toregirect='/login'
-                        component={Details}/>
           <PrivateRoutePropComponent path='/profile'
                         login={this.getStatusLogin()}
                         toregirect='/login'

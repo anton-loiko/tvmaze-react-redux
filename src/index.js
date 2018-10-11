@@ -1,7 +1,8 @@
 /* eslint-disable indent */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
+import {Router} from 'react-router-dom';
+import myHistory from 'myHistory';
 // import {createStore, applyMiddleware} from 'redux';
 import {createStore} from 'redux';
 // import { Provider } from 'react-redux';
@@ -16,8 +17,8 @@ let store = createStore(mainReducer);
 // store.dispatch()
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router history={myHistory}>
     <App store={store}/>
-  </BrowserRouter>,
+  </Router>,
   document.getElementById('root')
 );
