@@ -16,45 +16,7 @@ import PrivateRoutePropRender from 'components/PrivateRoutes/PrivateRoutePropRen
 
 class App extends Component {
 
-  // login user: user ? set login true and push '/' : set login = false and push '/registration'
-  login = user => {
-    const localUser= JSON.parse(localStorage.getItem('user'));
-
-    if (localUser) {
-      if (localUser.userName === user.userName && localUser.password === user.password) {
-        localStorage.setItem('login', '1');
-        return this.props.history.push('/');
-      }
-      if (localUser.userName === user.userName && localUser.password !== user.password) {
-        return
-      }
-    }
-
-    localStorage.setItem('login', '0');
-    return this.props.history.push('/registration');
-  };
-//----------------------------------------- END -----------------------------------------
-
-
-  // logout user set in localStorage login ='0' (false) and push url '/login
-  logout = () => {
-    localStorage.setItem('login', '0');
-    return this.props.history.push('/login');
-  };
-//----------------------------------------- END -----------------------------------------
-
-
-  // registration user set in localStorage login ='1' (true) and push url '/' (home)
-  register = () => {
-    localStorage.setItem('login', '1');
-    return this.props.history.push('/');
-  };
-//----------------------------------------- END -----------------------------------------
-
-
   getStatusLogin = () => !!+localStorage.getItem('login') ;
-//----------------------------------------- END -----------------------------------------
-
 
   render() {
     return (
@@ -63,18 +25,17 @@ class App extends Component {
         <Route path='/details/:id?' component={Header}/>
         <Route path='/profile' component={Header}/>
 
-
         <Switch>
-          <Route path='/logout' render={props => <Logout onLogout={this.logout}/>}/>
+          <Route path='/logout' component={Logout}/>
 
           <PrivateRoutePropRender path='/registration'
                         login={!this.getStatusLogin()}
                         toregirect={this.getStatusLogin() ? '/' : '/registration'}
-                        render={props => <Registration onRegister={this.register}/>}/>
+                        render={props => <Registration/>}/>
           <PrivateRoutePropRender path='/login'
                         login={!this.getStatusLogin()}
                         toregirect={!!this.getStatusLogin() ? '/' : '/login'}
-                        render={props => <Login onLogin={this.login}/>}/>
+                        render={props => <Login/>}/>
 
           <PrivateRoutePropComponent  path='/details/:id?'
                                      login={this.getStatusLogin()}
