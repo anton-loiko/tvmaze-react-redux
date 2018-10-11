@@ -1,7 +1,7 @@
 // import lib
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 // import { connect } from 'react-redux';
-import { Route, Switch, withRouter } from 'react-router-dom';
+import {Route, Switch, withRouter} from 'react-router-dom';
 //----------------------------------------- END -----------------------------------------
 
 // import other
@@ -59,9 +59,8 @@ class App extends Component {
   getStatusLogin = () => !!+localStorage.getItem('login') ;
 //----------------------------------------- END -----------------------------------------
 
-  render() {
-    // TODO --- переход на Details только из таблицы
 
+  render() {
     return (
       <Content>
         <Route exact path='/' component={Header}/>
