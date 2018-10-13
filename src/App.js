@@ -16,7 +16,7 @@ import PrivateRoutePropRender from 'components/PrivateRoutes/PrivateRoutePropRen
 
 class App extends Component {
 
-  getStatusLogin = () => !!+localStorage.getItem('login') ;
+  getStatusLogin = () => !localStorage.getItem('user') ? false : !!+localStorage.getItem('login');
 
   render() {
     return (
