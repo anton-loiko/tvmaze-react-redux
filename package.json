@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://dementeey.github.io/tvmaze",
   "dependencies": {
+    "assets": "latest",
     "connected-react-router": "^4.5.0",
     "history": "^4.7.2",
+    "is_js": "^0.9.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
@@ -14,8 +16,7 @@
     "react-scripts": "2.0.4",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.5",
-    "redux-thunk": "^2.3.0",
-    "assets": "latest"
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
