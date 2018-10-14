@@ -1,8 +1,8 @@
 {
   "name": "react-redux-sass-tvmaze",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://dementeey.github.io/tvmaze",
+  "repository": "https://github.com/Dementeey/dementeey.github.io/tvmaze",
   "dependencies": {
     "assets": "latest",
     "connected-react-router": "^4.5.0",
